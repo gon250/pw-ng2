@@ -1,12 +1,7 @@
-import { Component } from "@angular/core";
-
+import { Component } from '@angular/core';
 @Component({
-    moduleId: module.id,
-    selector: "home-component",
-    templateUrl: "./home.component.html"
+  template: `
+    <h2>Home</h2>
+    <p>Wording...</p>`
 })
-
-
-export class HomeComponent {
-    title: string = "Home";
-}
+export class HomeComponent { }
