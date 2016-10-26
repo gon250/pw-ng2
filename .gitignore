@@ -6,6 +6,8 @@ app/*.js
 app/*.js.map
 app/*/*.js
 app/*/*.js.map
+app/*/*/*.js
+app/*/*/*.js.map
 .DS_Store
 app/.DS_Store
 assets/.DS_Store
