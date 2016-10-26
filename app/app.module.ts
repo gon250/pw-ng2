@@ -5,6 +5,7 @@ import { RouterModule }   from '@angular/router';
 
 import { AppComponent }   from './app.component';
 import { HomeComponent }    from './home/home.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 
 @NgModule({
@@ -12,12 +13,14 @@ import { HomeComponent }    from './home/home.component';
       BrowserModule,
       FormsModule,
       RouterModule.forRoot([
-        { path: 'home', component: HomeComponent }
+        { path: 'home', component: HomeComponent },
+        { path: 'portfolio', component: PortfolioComponent}
       ])
     ],
   declarations: [ 
       AppComponent,
-      HomeComponent
+      HomeComponent,
+      PortfolioComponent
     ],
   bootstrap:    [ AppComponent ]
 })
