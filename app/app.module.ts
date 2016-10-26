@@ -4,23 +4,23 @@ import { FormsModule }    from '@angular/forms';
 import { RouterModule }   from '@angular/router';
 
 import { AppComponent }   from './app.component';
-import { HomeComponent }    from './home/home.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
+import { AppRoutingModule } from './app-routing.module';
 
+import { HomeComponent }  from './home/home.component';
+import { PortfolioComponent }    from './portfolio/portfolio.component';
+import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 
 @NgModule({
   imports: [ 
       BrowserModule,
       FormsModule,
-      RouterModule.forRoot([
-        { path: 'home', component: HomeComponent },
-        { path: 'portfolio', component: PortfolioComponent}
-      ])
+      AppRoutingModule
     ],
   declarations: [ 
       AppComponent,
       HomeComponent,
-      PortfolioComponent
+      PortfolioComponent,
+      PageNotFoundComponent
     ],
   bootstrap:    [ AppComponent ]
 })
