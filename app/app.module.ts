@@ -10,6 +10,8 @@ import { HomeComponent }  from './home/home.component';
 import { PortfolioComponent }    from './portfolio/portfolio.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 
+import { FooterComponent } from './shared/footer/footer.component';
+
 @NgModule({
   imports: [ 
       BrowserModule,
@@ -20,7 +22,8 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
       AppComponent,
       HomeComponent,
       PortfolioComponent,
-      PageNotFoundComponent
+      PageNotFoundComponent,
+      FooterComponent
     ],
   bootstrap:    [ AppComponent ]
 })

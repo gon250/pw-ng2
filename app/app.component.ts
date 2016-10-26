@@ -2,12 +2,60 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
   template: `
-    <h1>Gonzalo Barba</h1>
-    <nav>
-      <a routerLink="/home" routerLinkActive="active">home</a>
-      <a routerLink="/portfolio" routerLinkActive="active">portfolio</a>
+<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+    	<div class="container">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" routerLink="/home">Gonzalo Barba</a>
+        	</div>
+
+        	<div class="collapse navbar-collapse" id="navigation-example">
+        		<ul class="nav navbar-nav navbar-right">
+          <li>
+    					<a routerLink="/home" routerLinkActive="active">
+    						Home
+    					</a>
+    				</li>
+					<li>
+    					<a routerLink="/portfolio" routerLinkActive="active">
+    						Portfolio
+    					</a>
+    				</li>
+    				<li>
+						<a >
+							Blog
+						</a>
+          <li>
+    				</li>
+		            <li>
+		                <a href="https://twitter.com/gon250" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+							<i class="fa fa-twitter"></i>
+						</a>
+		            </li>
+		            <li>
+		                <a href="http://stackoverflow.com/users/2545964/gon250m" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+							<i class="fa fa-stack-overflow "></i>
+						</a>
+		            </li>
+					<li>
+		                <a href="https://ie.linkedin.com/in/gbarbalopez" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+							<i class="fa fa-linkedin "></i>
+						</a>
+		            </li>
+        		</ul>
+        	</div>
+    	</div>
     </nav>
-    <router-outlet></router-outlet>
+    <div class="wrapper">
+      <router-outlet></router-outlet>
+    </div>
+    <my-footer></my-footer>
   `
 })
 export class AppComponent { }
