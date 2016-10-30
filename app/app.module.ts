@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { HomeComponent }  from './home/home.component';
 import { PortfolioComponent }    from './portfolio/portfolio.component';
+import { BlogComponent} from './blog/blog.component';
+import { TimelineComponent } from './timeline/timeline.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 
 import { FooterComponent } from './shared/footer/footer.component';
@@ -25,6 +27,8 @@ import { HeaderComponent } from './shared/header/header.component';
       AppComponent,
       HomeComponent,
       PortfolioComponent,
+      BlogComponent, 
+      TimelineComponent,
       PageNotFoundComponent,
       FooterComponent,
       HeaderComponent
