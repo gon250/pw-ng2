@@ -1,3 +1,5 @@
+import * as $ from "jquery";
+
 var transparent = true;
 
 var transparentDemo = true;

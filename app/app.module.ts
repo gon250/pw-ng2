@@ -13,6 +13,8 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 
+//import * as $ from "jquery";
+
 @NgModule({
   imports: [ 
       BrowserModule,
