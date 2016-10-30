@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    template: `<h1>Blog</h1>`
+    templateUrl: '../app/blog/blog.component.html'
 })
 
 export class BlogComponent {}
