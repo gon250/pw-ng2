@@ -2,6 +2,7 @@ import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }    from '@angular/forms';
 import { RouterModule }   from '@angular/router';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent }   from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +13,7 @@ import { BlogComponent} from './blog/blog.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 
+import { PostsComponent } from './blog/posts.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 
@@ -21,7 +23,8 @@ import { HeaderComponent } from './shared/header/header.component';
   imports: [ 
       BrowserModule,
       FormsModule,
-      AppRoutingModule
+      AppRoutingModule,
+      HttpModule
     ],
   declarations: [ 
       AppComponent,
@@ -30,6 +33,7 @@ import { HeaderComponent } from './shared/header/header.component';
       BlogComponent, 
       TimelineComponent,
       PageNotFoundComponent,
+      PostsComponent,
       FooterComponent,
       HeaderComponent
     ],

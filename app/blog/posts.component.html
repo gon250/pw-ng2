@@ -1,0 +1,21 @@
+<div class="row" *ngFor="let post of posts">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="media gallery">
+            <div class="media-body">
+                <h4 class="media-heading">{{post.title}}</h4>
+                <h6 class="text-muted"></h6>
+
+                <p>{{post.content}}</p>
+
+                <div class="media-footer">
+                    <a href="#pablo" class="btn btn-info btn-simple pull-right" rel="tooltip" title="" data-original-title="Reply to Comment">
+                        <i class="fa fa-twitter"></i> 
+                    </a>
+                    <a href="{{post.link}}" class="btn btn-danger btn-simple pull-right">
+                        <i class="material-icons">link</i> 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
