@@ -6,7 +6,7 @@ import { PostsComponent } from './posts.component';
     styles: [
         'h1 {color:white;}', 
         `.page-header-blog {
-            height: 100vh;
+            height: 80vh;
             background-position: center center;
             background-size: cover;
             margin: 0;
