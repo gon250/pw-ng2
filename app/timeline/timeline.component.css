@@ -1,0 +1,27 @@
+h1 {
+    color:white;
+    }
+.page-header-timeline {
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.page-header-timeline  .carousel .carousel-indicators {
+    bottom: 60px;
+}
+.page-header-timeline  .container {
+    padding-top: 30vh;
+    color: #FFFFFF;
+}
+.page-header-timeline  .title {
+    color: #FFFFFF;
+}
+.page-header-timeline .header-small {
+    height: 65vh;
+}
+.page-header-timeline .header-small .container {
+    padding-top: 10vh;
+}

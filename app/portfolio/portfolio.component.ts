@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 @Component({
-  template: `
-    <h2>Portfolio</h2>
-    <p>Wording...</p>`
+  templateUrl: '../app/portfolio/portfolio.component.html',
+  styleUrls: ['../app/portfolio/portfolio.component.css']
 })
 export class PortfolioComponent { }

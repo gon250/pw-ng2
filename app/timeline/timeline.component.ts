@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-    template: `<h1>Timelines</h1>`
+    templateUrl: '../app/timeline/timeline.component.html',
+    styleUrls: ['../app/timeline/timeline.component.css']
 })
 
 export class TimelineComponent { }

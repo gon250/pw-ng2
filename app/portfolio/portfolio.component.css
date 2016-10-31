@@ -1,0 +1,27 @@
+h1 {
+    color:white;
+    }
+.page-header-portfolio {
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.page-header-portfolio  .carousel .carousel-indicators {
+    bottom: 60px;
+}
+.page-header-portfolio  .container {
+    padding-top: 30vh;
+    color: #FFFFFF;
+}
+.page-header-portfolio  .title {
+    color: #FFFFFF;
+}
+.page-header-portfolio .header-small {
+    height: 65vh;
+}
+.page-header-portfolio .header-small .container {
+    padding-top: 10vh;
+}
