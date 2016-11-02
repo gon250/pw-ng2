@@ -1,0 +1,20 @@
+{
+  "name": "gon250",
+  "description": "personal web",
+  "main": "index",
+  "authors": [
+    "Gonzalo <zalo250@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/gon250/pw-ng2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-kit": "^1.1.0"
+  }
+}
