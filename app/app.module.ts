@@ -14,6 +14,7 @@ import { TimelineComponent } from './timeline/timeline.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 
 import { PostsComponent } from './blog/posts.component';
+import { WorksComponent } from './home/works.component'
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 
@@ -34,6 +35,7 @@ import { HeaderComponent } from './shared/header/header.component';
       TimelineComponent,
       PageNotFoundComponent,
       PostsComponent,
+      WorksComponent,
       FooterComponent,
       HeaderComponent
     ],
