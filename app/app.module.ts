@@ -15,6 +15,7 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
 
 import { PostsComponent } from './blog/posts.component';
 import { WorksComponent } from './home/works.component'
+import { EducationComponent } from './home/education.component'
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 
@@ -36,6 +37,7 @@ import { HeaderComponent } from './shared/header/header.component';
       PageNotFoundComponent,
       PostsComponent,
       WorksComponent,
+      EducationComponent,
       FooterComponent,
       HeaderComponent
     ],
