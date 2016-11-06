@@ -5,8 +5,8 @@
             {{study.title}} 
             <small>{{study.where}}</small>
         </h3>
-        <p>
-            {{study.description}}
+        <p [innerHTML]="study.description">
+            
         </p>
     </div>
 </div>
