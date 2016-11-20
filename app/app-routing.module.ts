@@ -14,7 +14,7 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
       { path: 'portfolio', component: PortfolioComponent },
       { path: 'blog', component: BlogComponent},
       { path: 'timeline', component: TimelineComponent},
-      { path: '', redirectTo: "home", pathMatch: "full" },
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', component: PageNotFoundComponent }
     ])
   ],

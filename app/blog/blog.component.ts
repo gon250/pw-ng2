@@ -4,7 +4,7 @@ import { PostsComponent } from './posts.component';
 @Component({
     templateUrl: '../app/blog/blog.component.html',
     styles: [
-        'h1 {color:white;}', 
+        'h1 {color:white;}',
         `.page-header-blog {
             height: 80vh;
             background-position: center center;
@@ -33,4 +33,4 @@ import { PostsComponent } from './posts.component';
         ]
 })
 
-export class BlogComponent {}
+export class BlogComponent { }

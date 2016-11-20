@@ -19,20 +19,20 @@ import { EducationComponent } from './home/education.component'
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 
-//import * as $ from "jquery";
+// import * as $ from "jquery";
 
 @NgModule({
-  imports: [ 
+  imports: [
       BrowserModule,
       FormsModule,
       AppRoutingModule,
       HttpModule
     ],
-  declarations: [ 
+  declarations: [
       AppComponent,
       HomeComponent,
       PortfolioComponent,
-      BlogComponent, 
+      BlogComponent,
       TimelineComponent,
       PageNotFoundComponent,
       PostsComponent,
