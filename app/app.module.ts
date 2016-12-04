@@ -1,7 +1,6 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }    from '@angular/forms';
-import { RouterModule }   from '@angular/router';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent }   from './app.component';
@@ -14,8 +13,8 @@ import { TimelineComponent } from './timeline/timeline.component';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 
 import { PostsComponent } from './blog/posts.component';
-import { WorksComponent } from './home/works.component'
-import { EducationComponent } from './home/education.component'
+import { WorksComponent } from './home/works.component';
+import { EducationComponent } from './home/education.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 

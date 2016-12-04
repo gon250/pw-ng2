@@ -1,4 +1,4 @@
-import { BlogPost } from './blog-post';
+import { BlogPost } from '../common/blog-post';
 
 export const BLOGPOSTS: BlogPost[] = [{
     'id': 'tag:blog.gonzalobarba.com,2014:Post/3-learning-es6-variables-let',
