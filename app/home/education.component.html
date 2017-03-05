@@ -1,12 +1,10 @@
 <div class="row" *ngFor="let study of studies">
     <div class="col-md-12">
-        <h3>
+        <h4>
             <i class="fa fa-graduation-cap" aria-hidden="true"></i>
             {{study.title}} 
             <small>{{study.where}}</small>
-        </h3>
-        <p [innerHTML]="study.description">
-            
-        </p>
+        </h4>
+        <p [innerHTML]="study.description"></p>
     </div>
 </div>

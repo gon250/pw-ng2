@@ -3,5 +3,7 @@ export class Work {
     name: string;
     country: string;
     description: string;
-    year: number;
+    start: number;
+    end: number;
+    currently: boolean;
 }

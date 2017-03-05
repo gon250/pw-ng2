@@ -8,8 +8,15 @@
                 <p class="blog-content">{{work.description}}</p>
 
                 <div class="media-footer">
-                    <a class="btn btn-info btn-simple pull-right" rel="tooltip" title="" data-original-title="Reply to Comment">
-                        <i class="fa fa-calendar" aria-hidden="true"></i> {{work.year}} 
+                    <a class="btn btn-info btn-simple pull-right" 
+                       rel="tooltip" title="" 
+                       *ngIf="work.currently"> <!-- Working Currently on it -->
+                        <i class="fa fa-calendar" aria-hidden="true"></i> {{work.start}} - Currently
+                    </a>
+                    <a class="btn btn-info btn-simple pull-right" 
+                       rel="tooltip" title=""
+                       *ngIf="!work.currently"> <!-- Not Currently working on it -->
+                        <i class="fa fa-calendar" aria-hidden="true"></i> {{work.start}} - {{work.end}}
                     </a>
                     <a class="btn btn-danger btn-simple pull-right">
                         <i class="fa fa-globe" aria-hidden="true"></i> {{work.country}} 

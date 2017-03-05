@@ -5,11 +5,11 @@ import { STUDIES } from './data-studies';
     selector: 'education',
     templateUrl: './app/home/education.component.html'
 })
-export class EducationComponent { 
+export class EducationComponent {
     //TODO: implement a way to sort by year.
     studies: Study[];
 
-    ngOnInit(){
+    ngOnInit() {
         this.studies = STUDIES;
     }
 }
