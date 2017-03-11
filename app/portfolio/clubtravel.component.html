@@ -1,0 +1,14 @@
+<div class="col-md-8 col-md-offset-2 proyect-card" *ngFor="let proyect of proyects">
+    <div class="card card-background" style="background-color: #B0BEC5">
+        <div class="content">
+            <h6 class="category text-info">{{proyect.company}}</h6>
+            <h3 class="card-title">{{proyect.title}}</h3>
+            <p class="card-description">
+                {{proyect.description}}
+            </p>
+            <a href="#pablo" class="btn btn-danger btn-round">
+                <i class="material-icons">subject</i> Read Article
+            </a>
+        </div>
+    </div>
+</div>

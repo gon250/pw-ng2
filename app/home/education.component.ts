@@ -6,7 +6,7 @@ import { STUDIES } from './data-studies';
     templateUrl: './app/home/education.component.html'
 })
 export class EducationComponent {
-    //TODO: implement a way to sort by year.
+    // TODO: implement a way to sort by year.
     studies: Study[];
 
     ngOnInit() {

@@ -15,6 +15,9 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
 import { PostsComponent } from './blog/posts.component';
 import { WorksComponent } from './home/works.component';
 import { EducationComponent } from './home/education.component';
+import { MoneymateComponent } from './portfolio/moneymate.component';
+import { ClubtravelComponent } from './portfolio/clubtravel.component';
+import { FreelanceComponent } from './portfolio/freelance.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 
@@ -37,6 +40,9 @@ import { HeaderComponent } from './shared/header/header.component';
       PostsComponent,
       WorksComponent,
       EducationComponent,
+      MoneymateComponent,
+      ClubtravelComponent,
+      FreelanceComponent,
       FooterComponent,
       HeaderComponent
     ],
